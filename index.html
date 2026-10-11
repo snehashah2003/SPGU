@@ -9,9 +9,9 @@
 
     <meta name="description" content="Shree Ganpati Plastic Udhyog provides PP woven bags and packaging solutions in Biratnagar, Nepal.">
 
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="product.css">
-        <link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 
@@ -220,6 +220,8 @@
 </head>
 
 <body>
+    <script src="script.js"></script>
+</body>
 
 <!-- ================= HEADER ================= -->
 
@@ -239,34 +241,24 @@
 
         </a>
 
-        <button class="menu-btn"
-                id="menuBtn"
-                type="button"
-                aria-label="Toggle navigation"
-                aria-controls="navMenu"
-                aria-expanded="false">
-            ☰
-        </button>
+       
+<button class="menu-btn" id="menuBtn"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false">
+    <i class="fa-solid fa-bars"></i>
+</button>
+
 
         <nav id="navMenu">
-
-            <a href="index.html" class="active">Home</a>
-
-            <a href="about.html">About Us</a>
-
-            <a href="product.html">Products</a>
-            
-            <a href="#manufacturing">Manufacturing</a>
-
-            <a href="#gallery">Gallery</a>
-
-            <a href="contact.html">Contact Us</a>
-
-            <a href="#quote" class="nav-button">
-                Get a Quote
-            </a>
-
-        </nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="product.html">Products</a>
+    <a href="index.html#manufacturing">Manufacturing</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="contact.html#contact-form" class="nav-button">Get a Quote</a>
+</nav>
 
     </div>
 
@@ -442,18 +434,17 @@
             <article class="product-card">
 
                 <div class="product-image">
-                    <img src="Branded PP Woven Grain Bags at Warehouse.png"
+                    <img src="bora.png"
                          alt="PP Woven Packaging"
                          loading="lazy">
                 </div>
 
                 <div class="card-content">
 
-                    <h3>PP Woven Bags</h3>
+                    <h3>PP Woven Bora</h3>
 
                     <p>
-                        Durable packaging solutions for
-                        agricultural and commercial products.
+                        Durable PP woven bora for reliable agricultural, industrial, and commercial packaging.
                     </p>
 
                     <a href="#quote">
@@ -493,7 +484,7 @@
             <article class="product-card">
 
                 <div class="product-image">
-                    <img src="bag.png"
+                    <img src="pp woven bag.png"
                          alt="Custom PP Woven Bags"
                          loading="lazy">
                 </div>
@@ -835,14 +826,12 @@
 
         <!-- RIGHT SIDE: QUOTATION FORM -->
         <div class="quote-form-box">
-
-            <form
+<form
                 action="https://formspree.io/f/maeqokgb"
                 method="POST"
                 class="quote-form"
             >
-
-                <input
+ <input
                     type="hidden"
                     name="_subject"
                     value="New Quotation Request - Shree Ganpati Plastic Udhyog"
