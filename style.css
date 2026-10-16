@@ -3148,3 +3148,13 @@ body .hero {
 #quote .quote-info > p {
     color: #000000 !important;
 }
+
+/* MOBILE: SHOW MORE OF THE FACTORY BACKGROUND */
+@media screen and (max-width: 768px) {
+  body .hero {
+    background-size: auto 75% !important;
+    background-position: 60% center !important;
+    background-repeat: no-repeat !important;
+    background-color: #061d33 !important;
+  }
+}
